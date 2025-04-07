@@ -1,0 +1,58 @@
+.contenedor {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between; /*Para el eje principal*/
+    flex-wrap: wrap;
+    align-items: center; /*Para el eje transversal*/
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-content: center; /*Para controlar las líneas flexibles sobre el eje transversal*/
+}
+
+.caja-1 {
+    width: 500px;
+    height: 80px;
+    background-color: blue;
+    font-size: 85px;
+    color: white;
+}
+
+.caja-2 {
+    width: 500px;
+    height: 80px;
+    background-color: red;
+    font-size: 85px;
+    color: white;
+}
+
+.caja-3 {
+    width: 500px;
+    height: 80px;
+    background-color: orange;
+    font-size: 85px;
+    color: white;
+}
+
+.caja-4 {
+    width: 500px;
+    height: 80px;
+    background-color: pink;
+    font-size: 85px;
+    color: white;
+}
+
+.caja-5 {
+    width: 500px;
+    height: 80px;
+    background-color: darkcyan;
+    font-size: 85px;
+    color: white;
+}
+
+.caja-6 {
+    width: 500px;
+    height: 80px;
+    background-color: forestgreen;
+    font-size: 85px;
+    color: white;
+}
